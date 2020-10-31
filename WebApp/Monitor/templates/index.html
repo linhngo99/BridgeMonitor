@@ -1,0 +1,11 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+  <h1>Bridge Monitor</h1>
+  <p>Welcome to Bridge Monitor. Monitor your sensor nodes for your wireless sensor network on this site.</p>
+  <p>Your wireless sensor network has the following record counts:</p>
+  <ul>
+    <li><strong>Total number of Sensor Nodes:</strong> {{ num_SensorNodes }}</li>
+    <li><strong>Total Number of Sensors:</strong> {{ num_Sensors }}</li>
+  </ul>
+{% endblock %}
